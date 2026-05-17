@@ -71,8 +71,38 @@ ON Employee.Dept_id = Department.Dept_id;
 */
 
 --Right join
-
+/*
 SELECT Employee.Emp_name, Department.name 
 FROM Employee
 RIGHT JOIN Department
-ON Employee.Dept_id = Department.Dept_id;  
+ON Employee.Dept_id = Department.Dept_id  
+
+SELECT Employee.Emp_name, Department.name 
+FROM Employee
+left JOIN Department
+ON Employee.Dept_id = Department.Dept_id 
+
+
+INSERT INTO Employee (Emp_Id, Emp_name, Dept_id)
+VALUES
+(106, 'Shifat', null)
+*/
+--INSERT INTO Employee (Emp_Id, Emp_name, Dept_id)
+--VALUES
+--(107, 'Josim', null),
+--(108, 'Faruk', null),
+--(109, 'Johir', null)
+
+--INSERT INTO Department (Dept_id, name)
+--VALUES 
+--(6, 'TC'),
+--(7, 'Mercen'),
+--(8, 'Oduit'),
+--(9, 'Commer'),
+--(10, 'Execute');
+
+SELECT Department.name , Employee.Emp_name
+FROM Department
+Inner JOIN Employee
+ON Department.Dept_id = Employee.Dept_id
+
