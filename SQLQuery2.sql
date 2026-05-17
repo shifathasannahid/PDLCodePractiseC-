@@ -54,5 +54,25 @@ VALUES
 
 --Inner join
 
-Select Emp_name
-From Employee
+/*
+SELECT Employee.Emp_name, Department.name
+FROM Employee
+INNER JOIN Department
+ON Employee.Dept_id = Department.Dept_id;
+*/
+
+--LEFT JOIN
+/*
+SELECT Employee.Emp_name, Department.name
+FROM Employee
+LEFT JOIN Department
+ON Employee.Dept_id = Department.Dept_id;
+
+*/
+
+--Right join
+
+SELECT Employee.Emp_name, Department.name 
+FROM Employee
+RIGHT JOIN Department
+ON Employee.Dept_id = Department.Dept_id;  
