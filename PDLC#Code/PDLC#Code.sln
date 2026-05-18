@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayList", "ArrayList\Arra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boxing and Unboxing with ArrayList", "Boxing and Unboxing with ArrayList\Boxing and Unboxing with ArrayList.csproj", "{00A636B9-A26A-441C-AE40-1F908F2E650D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "List", "List\List.csproj", "{8A720425-01DC-479A-9498-75684737C176}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{00A636B9-A26A-441C-AE40-1F908F2E650D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00A636B9-A26A-441C-AE40-1F908F2E650D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00A636B9-A26A-441C-AE40-1F908F2E650D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A720425-01DC-479A-9498-75684737C176}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A720425-01DC-479A-9498-75684737C176}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A720425-01DC-479A-9498-75684737C176}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A720425-01DC-479A-9498-75684737C176}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
