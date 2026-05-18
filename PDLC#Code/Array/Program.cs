@@ -9,13 +9,13 @@
 
 //Two dimentional Array
 
-int[,] numbers = { { 1, 4, 2 }, { 3, 6, 8 } };
-Console.WriteLine(numbers[1, 2]);
+//int[,] numbers = { { 1, 4, 2 }, { 3, 6, 8 } };
+//Console.WriteLine(numbers[1, 2]);
 
 //Change Elements of a 2D Array
-int[,] number = { { 11, 12, 13 }, { 17, 18, 19 } };
-number[1, 2] = 20;
-Console.WriteLine(number[1, 2]);
+//int[,] number = { { 11, 12, 13 }, { 17, 18, 19 } };
+//number[1, 2] = 20;
+//Console.WriteLine(number[1, 2]);
 
 //Use of 2 dimentional Array
 int[,] matrix =
