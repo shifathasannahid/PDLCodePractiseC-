@@ -25,7 +25,7 @@ foreach (var mark in marks)
 //Key searching
 if (marks.ContainsKey("Shifat"))
 {
-    Console.WriteLine("Key ta holo " + marks["Shifat"]);
+    Console.WriteLine("Key ta holo: " + marks["Shifat"]);
 }
 else
 {
