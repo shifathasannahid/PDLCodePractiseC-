@@ -18,8 +18,10 @@ foreach (var item in arrayList)
 //Remove element
 arrayList.Remove("Shifat");
 
-Console.WriteLine("\n After Remove: ");
+Console.WriteLine("\nAfter Remove: ");
 foreach(var item in arrayList)
 {
     Console.WriteLine("Element : " + item);
 }
+
+
