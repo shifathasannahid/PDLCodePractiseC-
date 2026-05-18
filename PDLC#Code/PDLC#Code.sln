@@ -31,6 +31,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boxing and Unboxing with Ar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "List", "List\List.csproj", "{8A720425-01DC-479A-9498-75684737C176}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Collection_all", "Collection_all", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dictionary", "Dictionary\Dictionary.csproj", "{4E4B787F-2575-4713-B1D9-7B55AFDD1F76}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,9 +97,20 @@ Global
 		{8A720425-01DC-479A-9498-75684737C176}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A720425-01DC-479A-9498-75684737C176}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A720425-01DC-479A-9498-75684737C176}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E4B787F-2575-4713-B1D9-7B55AFDD1F76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E4B787F-2575-4713-B1D9-7B55AFDD1F76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E4B787F-2575-4713-B1D9-7B55AFDD1F76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E4B787F-2575-4713-B1D9-7B55AFDD1F76}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FF47D048-777F-4F9E-9079-D584897011E4} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{07145C9E-9AC7-479F-AA4A-C21D1334EA59} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{00A636B9-A26A-441C-AE40-1F908F2E650D} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{8A720425-01DC-479A-9498-75684737C176} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{4E4B787F-2575-4713-B1D9-7B55AFDD1F76} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9CF6CA76-523A-4F55-BCBD-8CA7BBA2E47B}
